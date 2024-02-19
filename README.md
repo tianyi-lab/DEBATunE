@@ -2,6 +2,10 @@
 
 [Can LLMs Speak For Diverse People? Tuning LLMs via Debate to Generate Controllable Controversial Statements](https://arxiv.org/abs/2402.10614)
 
+<p align="center" width="40%">
+<a ><img src="images/alpaca_debate.png" alt="overview" style="width: 40%; min-width: 300px; display: block; margin: auto;"></a>
+</p>
+
 This is the repo for the DEBATunE project, which introduces a novel debate & tuning ("DEBATunE") pipeline finetuning LLMs to equip LLMs with the capability to generate controllable controversial statements via debate.
 
 The repo contains:
