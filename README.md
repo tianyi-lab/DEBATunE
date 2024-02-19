@@ -6,7 +6,7 @@
 <a ><img src="images/alpaca_debate.png" alt="overview" style="width: 40%; min-width: 300px; display: block; margin: auto;"></a>
 </p>
 
-This is the repo for the DEBATunE project, which introduces a novel debate & tuning ("DEBATunE") pipeline finetuning LLMs to equip LLMs with the capability to generate controllable controversial statements via debate.
+This is the repo for the DEBATunE project, which introduces a novel debate & tuning ("DEBATunE") pipeline finetuning LLMs to equip LLMs with the capability to **generate controllable controversial statements via debate.**
 
 The repo contains:
 
@@ -43,9 +43,9 @@ The conclusion is a more salient, detailed, and higher-quality statement for the
 
 ## Highlights
 
-* While existing works focus on achieving a consensus on divergent opinions to finetune LLMs, we study a novel debate pipeline that instead strengthens the statements of controversial stances and uses them to improve the controllability of LLMs in expressing different opinions of diverse people.
+* While existing works focus on achieving a consensus on divergent opinions to finetune LLMs, we study a novel debate pipeline that instead **strengthens the statements of controversial stances** and uses them to **improve the controllability of LLMs in expressing different opinions of diverse people**.
 * We develop a dataset comprising 710 controversial debate topics, which is the largest dataset of its kind so far, and introduce a metric assessing LLM's controllability on controversial topics.
-* We are the first to evaluate several open-sourced LLMs on controversial debate topics and analyze the existing models' strengths and limitations in this specific context.
+* We are the first to **evaluate several open-sourced LLMs on controversial debate topics** and analyze the existing models' strengths and limitations in this specific context.
 
 ## Install
 
