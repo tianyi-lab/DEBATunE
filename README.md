@@ -2,7 +2,7 @@
 
 [Can LLMs Speak For Diverse People? Tuning LLMs via Debate to Generate Controllable Controversial Statements](https://arxiv.org/abs/2402.10614)
 
-This is the repo for the DEBATunE project, which introduces a novel debate & tuning ("DEBATunE") pipeline finetuning LLMs to equipe LLMs with the capability to generate controllable controversial statements via debate.
+This is the repo for the DEBATunE project, which introduces a novel debate & tuning ("DEBATunE") pipeline finetuning LLMs to equip LLMs with the capability to generate controllable controversial statements via debate.
 
 The repo contains:
 
@@ -14,7 +14,17 @@ The repo contains:
 (Feel free to email minglii@umd.edu for any questions or feedback.)
 
 ## News
-- [2024/02] We released the paper, codes, data for this project. 
+- [2024/02] We released the paper, codes, and data for this project.
+
+## Contents
+- [Overview](#overview)
+- [Highlights](#highlights)
+- [Install](#install)
+- [Code for DEBATunE](#code-for-debatune)
+- [Code for Evaluation](#code-for-evaluation)
+- [Data](#data)
+- [ToDo](#todo)
+- [Citation](#citation)
 
 ## Overview
 
@@ -41,7 +51,7 @@ bash scripts/step1_do_debate.sh
 ```save_path```: Debate log save path.<br>
 ```arg_num```: Number of auguments for each topic.<br>
 
-2. Make SFT Dataset
+2. Make the SFT Dataset
 ```
 bash scripts/step2_make_train_data.sh
 ```
@@ -68,7 +78,7 @@ bash evaluation/scripts/step1_generate_inference.sh
 bash evaluation/scripts/step2_eval_controllability.sh
 ```
 
-```result_file```: The inference results obtained from last step.<br>
+```result_file```: The inference results obtained from the previous step.<br>
 ```save_name```: The path to save the Controversy Controllability evaluate results. <br>
 
 Note: In the script, we utilize the results of our DEBATunE 7b as an example. 
@@ -83,12 +93,12 @@ bash evaluation/scripts/step3_eval_quality.sh
 ```fname1```: The result path of LLM 1.<br>
 ```fname2```: The result path of LLM 2.
 
-Note: This code is partially originated from [Cherry_LLM](https://github.com/MingLiiii/Cherry_LLM), which contains a common pair-wise evaluation prompts. <br>
+Note: This code partially originated from [Cherry_LLM](https://github.com/MingLiiii/Cherry_LLM), which contains common pair-wise evaluation prompts. <br>
 In the script, we utilize the comparison between our DEBATunE 7b and Vicuna 7B v1.5 as an example. 
 
 ## Data
 
-1. Our manully collected and filtered debate topic data can be found in ```Debate_topic_only```. <br>
+1. Our manually collected and filtered debate topic data can be found in ```Debate_topic_only```. <br>
 2. The hold-out test set with arguments can be found in ```Debate_topic_arguments/debate_test_v1_arg.jsonl```. <br>
 3. The instruction tuning data set can be found in ```Debate_data_SFT/Final_v1_ChatGPT_2round_5argument.json```.
 
