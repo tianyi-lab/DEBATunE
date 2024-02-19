@@ -30,6 +30,13 @@ The repo contains:
 
 Making LLMs speak for different, especially minority groups of people, and generate statements supporting their diverse or even controversial perspectives is critical to creating an inclusive environment. However, existing LLMs lack sufficient controllability to the stance of their generated content, which often contains inconsistent, neutral, or biased statements. In this paper, we improve the controllability of LLMs in generating statements supporting an argument the user defined in the prompt. We find that multi-round debates between two LLMs with opposite stances generate higher-quality and more salient statements for each, which are important training data to improve the controllability of LLMs. Motivated by this, we develop a novel debate & tuning ("DEBATunE") pipeline finetuning LLMs to generate the statements obtained via debate. To examine DEBATunE, we curate the largest dataset of debate topics so far, which covers 710 controversial topics and corresponding arguments for each topic. Evaluations by the GPT-4 judge with a novel controversy controllability metric show that LLMs' capability of expressing diverse perspectives is significantly improved by DEBATunE. Moreover, such controllability can be generalized to unseen topics, generating high-quality statements supporting controversial arguments. 
 
+<p align="center" width="40%">
+<a ><img src="images/main.png" alt="overview" style="width: 40%; min-width: 300px; display: block; margin: auto;"></a>
+</p>
+
+The pipeline of our DEBATunE. In the **Debate phase (top)**, the agents are prompted to debate upon the given topic with an argument. After several rounds of debate, an agent (positive in the example) concludes the debate based on all the previous debate records. 
+The conclusion is a more salient, detailed, and higher-quality statement for the agent. It will be used to train an LLM in the **Training phase (bottom)** to improve the controllability of generating statements for the given stance (positive in the example). 
+
 ## Highlights
 
 * While existing works focus on achieving a consensus on divergent opinions to finetune LLMs, we study a novel debate pipeline that instead strengthens the statements of controversial stances and uses them to improve the controllability of LLMs in expressing different opinions of diverse people.
