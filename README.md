@@ -111,8 +111,8 @@ In the script, we utilize the comparison between our DEBATunE 7b and Vicuna 7B v
 
 1. Our manually collected and filtered debate topic data can be found in ```Debate_topic_only```. <br>
 2. The hold-out test set with arguments can be found in ```Debate_topic_arguments/debate_test_v1_arg.jsonl```. <br>
-3. The instruction tuning data set can be found in ```Debate_data_SFT/Final_v1_ChatGPT_2round_5argument.json```.
-
+3. The instruction tuning data set can be found in ```Debate_data_SFT/Final_v1_ChatGPT_2round_5argument.json```.<br>
+4. We also provide the inference results on the hold-out test sets of some existing LLMs for better understanding, which can be found in ```inference_results_of_exsisting_models```.
 
 ## ToDo
 - [x] Release the code, data, and models. 
