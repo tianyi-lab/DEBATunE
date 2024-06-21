@@ -1,6 +1,6 @@
-# DEBATunE
+# DEBATunE (ACL'24)
 
-[Can LLMs Speak For Diverse People? Tuning LLMs via Debate to Generate Controllable Controversial Statements](https://arxiv.org/abs/2402.10614)
+[Can LLMs Speak For Diverse People? Tuning LLMs via Debate to Generate Controllable Controversial Statements](https://arxiv.org/abs/2402.10614) (ACL'24)
 
 <p align="center" width="40%">
 <a ><img src="images/alpaca_debate.png" alt="overview" style="width: 40%; min-width: 300px; display: block; margin: auto;"></a>
@@ -18,6 +18,7 @@ The repo contains:
 (Feel free to email minglii@umd.edu for any questions or feedback.)
 
 ## News
+- [2024/05] Our paper has been accepted to the **ACL 2024** findings! 
 - [2024/02] We released the paper, codes, and data for this project.
 
 ## Contents
@@ -116,8 +117,6 @@ In the script, we utilize the comparison between our DEBATunE 7b and Vicuna 7B v
 
 ## ToDo
 - [x] Release the code, data, and models. 
-- [ ] Other models as the debate agents.
-- [ ] Collecting more topics with more human inspection. 
 
 ## Citation
 
