@@ -122,12 +122,31 @@ In the script, we utilize the comparison between our DEBATunE 7b and Vicuna 7B v
 
 Please consider citing our paper if you think our codes, data, or models are useful. Thank you!
 ```
-@misc{li2024llms,
-      title={Can LLMs Speak For Diverse People? Tuning LLMs via Debate to Generate Controllable Controversial Statements}, 
-      author={Ming Li and Jiuhai Chen and Lichang Chen and Tianyi Zhou},
-      year={2024},
-      eprint={2402.10614},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
+@article{Li2024CanLS,
+  title={Can LLMs Speak For Diverse People? Tuning LLMs via Debate to Generate Controllable Controversial Statements},
+  author={Ming Li and Jiuhai Chen and Lichang Chen and Tianyi Zhou},
+  journal={ArXiv},
+  year={2024},
+  volume={abs/2402.10614},
+  url={https://api.semanticscholar.org/CorpusID:267740270}
 }
+
+@article{Li2024SelectiveRS,
+  title={Selective Reflection-Tuning: Student-Selected Data Recycling for LLM Instruction-Tuning},
+  author={Ming Li and Lichang Chen and Jiuhai Chen and Shwai He and Jiuxiang Gu and Tianyi Zhou},
+  journal={ArXiv},
+  year={2024},
+  volume={abs/2402.10110},
+  url={https://api.semanticscholar.org/CorpusID:267682220}
+}
+
+@inproceedings{
+li2023reflectiontuning,
+title={Reflection-Tuning: Recycling Data for Better Instruction-Tuning},
+author={Ming Li and Lichang Chen and Jiuhai Chen and Shwai He and Tianyi Zhou},
+booktitle={NeurIPS 2023 Workshop on Instruction Tuning and Instruction Following},
+year={2023},
+url={https://openreview.net/forum?id=xaqoZZqkPU}
+}
+
 ```
