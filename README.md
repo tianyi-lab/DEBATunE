@@ -30,6 +30,7 @@ The repo contains:
 - [Data](#data)
 - [ToDo](#todo)
 - [Citation](#citation)
+- [Our Related Works](#our-related-works)
 
 ## Overview
 
@@ -149,3 +150,11 @@ Please consider citing our paper if you think our codes, data, or models are use
 }
 
 ```
+
+## Our Related Works
+
+If you are interested in **Data Selection** for Instruction Tuning, please see [Cherry_LLM](https://github.com/MingLiiii/Cherry_LLM) and [Superfiltering](https://github.com/tianyi-lab/Superfiltering). <br>
+If you are interested in **human/LLM-free Data Augmentation** for Instruction Tuning, please see [Mosaic-IT](https://github.com/tianyi-lab/Mosaic-IT) and [RuleR](https://github.com/MingLiiii/RuleR). <br>
+If you are interested in **Data Improvement** for Instruction Tuning, please see [Reflection_Tuning](https://github.com/tianyi-lab/Reflection_Tuning). <br>
+If you are interested in **Knowledge Distillation** in the LLM era, please see this [Survey](https://github.com/Tebmer/Awesome-Knowledge-Distillation-of-LLMs). <br>
+
